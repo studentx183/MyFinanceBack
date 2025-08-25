@@ -68,6 +68,55 @@ let transactions: Transaction[] = [
     createdAt: new Date("2023-10-08T08:30:00Z"),
     for: "Transportation",
   },
+  {
+    id: "123e4567-e89b-12d3-a456-426614174008",
+    typeId: 1,
+    amount: 110.0,
+    createdAt: new Date("2023-10-09T10:00:00Z"),
+    for: "Groceries",
+  },
+  {
+    id: "123e4567-e89b-12d3-a456-426614174009",
+    typeId: 2,
+    amount: 55.0,
+    createdAt: new Date("2023-10-10T12:00:00Z"),
+    for: "Utilities",
+  },
+  {
+    id: "123e4567-e89b-12d3-a456-426614174010",
+    typeId: 1,
+    amount: 115.0,
+    createdAt: new Date("2023-10-11T10:00:00Z"),
+    for: "Groceries",
+  },
+  {
+    id: "123e4567-e89b-12d3-a456-426614174011",
+    typeId: 2,
+    amount: 65.0,
+    createdAt: new Date("2023-10-12T12:00:00Z"),
+    for: "Utilities",
+  },
+  {
+    id: "123e4567-e89b-12d3-a456-426614174012",
+    typeId: 1,
+    amount: 130.0,
+    createdAt: new Date("2023-10-13T10:00:00Z"),
+    for: "Groceries",
+  },
+  {
+    id: "123e4567-e89b-12d3-a456-426614174013",
+    typeId: 2,
+    amount: 70.0,
+    createdAt: new Date("2023-10-14T12:00:00Z"),
+    for: "Utilities",
+  },
+  {
+    id: "123e4567-e89b-12d3-a456-426614174014",
+    typeId: 1,
+    amount: 140.0,
+    createdAt: new Date("2023-10-15T10:00:00Z"),
+    for: "Groceries",
+  }
 ]; // in-memory DB for now
 
 const getParsedDate = (date: string) => {
